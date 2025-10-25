@@ -1,0 +1,8 @@
+
+JIDARAKU.exe:JIDARAKU.cpp
+	cl /nologo /EHsc JIDARAKU.cpp
+
+clean:
+	del JIDARAKU.obj
+	del JIDARAKU.exe
+
